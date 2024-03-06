@@ -14,11 +14,11 @@ public class certificateService {
 	
 	private static List<certificate> getcertificate = new ArrayList<>();
 	
-	static 	{ 
-		getcertificate.add(new certificate (++count,"aws","udemy"));
-		getcertificate.add(new certificate (++count,"Springboot","udemy"));
-		getcertificate.add(new certificate (++count,"java","udemy"));
-	};
+//	static 	{ 
+//		getcertificate.add(new certificate (++count,"aws","udemy"));
+//		getcertificate.add(new certificate (++count,"Springboot","udemy"));
+//		getcertificate.add(new certificate (++count,"java","udemy"));
+//	};
 
 			
 	public List<certificate> getall(){

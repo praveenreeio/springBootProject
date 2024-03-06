@@ -20,6 +20,12 @@ public class certificate {
 	
 	
 	
+	public certificate() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+
 	public int getI() {
 		return i;
 	}

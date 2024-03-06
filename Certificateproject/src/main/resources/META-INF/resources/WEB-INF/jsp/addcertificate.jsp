@@ -11,11 +11,11 @@
 	<div class="container">
 		<h1>Please add Your Certificates : </h1>
 
-		<form method="POST">
-			<input type="text" name="name" placeholder=" Enter Certifcate or course name" required="required"/>
-			<input type="text" name="platform" placeholder="Enter platform" required="required"/>			
+		<form:form method="POST" modelAttribute="certifcates">
+			<form:input type="text" path="name" placeholder=" Enter Certifcate or course name" required="required"/>
+			<form:input type="text" path="platform" placeholder="Enter platform" required="required"/>			
 				<input type="submit" class="btn btn-success"/>
-		</form>
+		</form:form>
 		
 	 </div>
 	
